@@ -1,0 +1,32 @@
+group 'org.sxf'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+buildscript {
+    dependencies {
+        classpath group: 'de.dynamicfiles.projects.gradle.plugins', name: 'javafx-gradle-plugin', version: '8.7.0'
+    }
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}
+apply plugin: 'javafx-gradle-plugin'
+jfx {
+    // minimal requirement for jfxJar-task
+    mainClass = 'org.sxf.deppshow.Main'
+    // minimal requirement for jfxNative-task
+    vendor = 'Sxf'
+}

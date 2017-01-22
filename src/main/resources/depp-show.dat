@@ -1,0 +1,1130 @@
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                           ^^                          
+left: 136, right: 139
+Token: id *
+Stack Top: 0
+0 
+
+type: 5, action: s, goto: 1
+type: 18, action: s, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                           ^ ^                         
+left: 136, right: 140
+Token: id id
+Stack Top: 3
+0 3 
+'*' 
+type: 5, action: s, goto: 1
+type: 5, action: s, goto: 1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                           ^  ^                        
+left: 136, right: 141
+Token: id +
+Stack Top: 1
+0 3 1 
+'*' id 
+type: 5, action:  , goto: -1
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                           ^  ^                        
+left: 136, right: 141
+Token: id +
+Stack Top: 14
+0 3 14 
+'*' F 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                           ^  ^                        
+left: 136, right: 141
+Token: id +
+Stack Top: 14
+0 3 14 
+'*' F 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                          ^   ^                        
+left: 135, right: 141
+Token: * +
+Stack Top: 1
+0 3 14 1 
+id '*' F 
+type: 18, action: r, goto: 5
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                          ^   ^                        
+left: 135, right: 141
+Token: * +
+Stack Top: 8
+0 3 14 8 
+F '*' F 
+type: 18, action: s, goto: 14
+type: 17, action: R, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                         ^    ^                        
+left: 134, right: 141
+Token: id +
+Stack Top: 14
+0 3 14 8 14 
+'*' F '*' F 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                        ^     ^                        
+left: 133, right: 141
+Token: + +
+Stack Top: 1
+0 3 14 8 14 1 
+id '*' F '*' F 
+type: 17, action: r, goto: 5
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                        ^     ^                        
+left: 133, right: 141
+Token: + +
+Stack Top: 8
+0 3 14 8 14 8 
+F '*' F '*' F 
+type: 17, action: r, goto: 3
+type: 17, action: R, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                        ^     ^                        
+left: 133, right: 141
+Token: + +
+Stack Top: 22
+0 3 14 8 14 22 
+T '*' F '*' F 
+type: 17, action: r, goto: 2
+type: 17, action: r, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                        ^     ^                        
+left: 133, right: 141
+Token: + +
+Stack Top: 22
+0 3 14 22 
+T '*' F 
+type: 17, action: r, goto: 2
+type: 17, action: r, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                        ^     ^                        
+left: 133, right: 141
+Token: + +
+Stack Top: 7
+0 7 
+T 
+type: 17, action: S, goto: 19
+type: 17, action: R, goto: 1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                       ^      ^                        
+left: 132, right: 141
+Token: id +
+Stack Top: 19
+0 7 19 
+'+' T 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                      ^       ^                        
+left: 131, right: 141
+Token: * +
+Stack Top: 1
+0 7 19 1 
+id '+' T 
+type: 18, action: r, goto: 5
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                      ^       ^                        
+left: 131, right: 141
+Token: * +
+Stack Top: 8
+0 7 19 8 
+F '+' T 
+type: 18, action: s, goto: 14
+type: 17, action: R, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                     ^        ^                        
+left: 130, right: 141
+Token: id +
+Stack Top: 14
+0 7 19 8 14 
+'*' F '+' T 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                    ^         ^                        
+left: 129, right: 141
+Token: + +
+Stack Top: 1
+0 7 19 8 14 1 
+id '*' F '+' T 
+type: 17, action: r, goto: 5
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                    ^         ^                        
+left: 129, right: 141
+Token: + +
+Stack Top: 8
+0 7 19 8 14 8 
+F '*' F '+' T 
+type: 17, action: r, goto: 3
+type: 17, action: R, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                    ^         ^                        
+left: 129, right: 141
+Token: + +
+Stack Top: 22
+0 7 19 8 14 22 
+T '*' F '+' T 
+type: 17, action: r, goto: 2
+type: 17, action: r, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                    ^         ^                        
+left: 129, right: 141
+Token: + +
+Stack Top: 10
+0 7 19 10 
+T '+' T 
+type: 17, action: s, goto: 19
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                   ^          ^                        
+left: 128, right: 141
+Token: id +
+Stack Top: 19
+0 7 19 10 19 
+'+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                  ^           ^                        
+left: 127, right: 141
+Token: * +
+Stack Top: 1
+0 7 19 10 19 1 
+id '+' T '+' T 
+type: 18, action: r, goto: 5
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                  ^           ^                        
+left: 127, right: 141
+Token: * +
+Stack Top: 8
+0 7 19 10 19 8 
+F '+' T '+' T 
+type: 18, action: s, goto: 14
+type: 17, action: R, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                 ^            ^                        
+left: 126, right: 141
+Token: id +
+Stack Top: 14
+0 7 19 10 19 8 14 
+'*' F '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                ^             ^                        
+left: 125, right: 141
+Token: + +
+Stack Top: 1
+0 7 19 10 19 8 14 1 
+id '*' F '+' T '+' T 
+type: 17, action: r, goto: 5
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                ^             ^                        
+left: 125, right: 141
+Token: + +
+Stack Top: 8
+0 7 19 10 19 8 14 8 
+F '*' F '+' T '+' T 
+type: 17, action: r, goto: 3
+type: 17, action: R, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                ^             ^                        
+left: 125, right: 141
+Token: + +
+Stack Top: 22
+0 7 19 10 19 8 14 22 
+T '*' F '+' T '+' T 
+type: 17, action: r, goto: 2
+type: 17, action: r, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+                ^             ^                        
+left: 125, right: 141
+Token: + +
+Stack Top: 10
+0 7 19 10 19 10 
+T '+' T '+' T 
+type: 17, action: s, goto: 19
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+               ^              ^                        
+left: 124, right: 141
+Token: id +
+Stack Top: 19
+0 7 19 10 19 10 19 
+'+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+              ^               ^                        
+left: 123, right: 141
+Token: + +
+Stack Top: 1
+0 7 19 10 19 10 19 1 
+id '+' T '+' T '+' T 
+type: 17, action: r, goto: 5
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+              ^               ^                        
+left: 123, right: 141
+Token: + +
+Stack Top: 8
+0 7 19 10 19 10 19 8 
+F '+' T '+' T '+' T 
+type: 17, action: r, goto: 3
+type: 17, action: R, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+              ^               ^                        
+left: 123, right: 141
+Token: + +
+Stack Top: 10
+0 7 19 10 19 10 19 10 
+T '+' T '+' T '+' T 
+type: 17, action: s, goto: 19
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+             ^                ^                        
+left: 122, right: 141
+Token: id +
+Stack Top: 19
+0 7 19 10 19 10 19 10 19 
+'+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+            ^                 ^                        
+left: 121, right: 141
+Token: * +
+Stack Top: 1
+0 7 19 10 19 10 19 10 19 1 
+id '+' T '+' T '+' T '+' T 
+type: 18, action: r, goto: 5
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+            ^                 ^                        
+left: 121, right: 141
+Token: * +
+Stack Top: 8
+0 7 19 10 19 10 19 10 19 8 
+F '+' T '+' T '+' T '+' T 
+type: 18, action: s, goto: 14
+type: 17, action: R, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+           ^                  ^                        
+left: 120, right: 141
+Token: id +
+Stack Top: 14
+0 7 19 10 19 10 19 10 19 8 14 
+'*' F '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+          ^                   ^                        
+left: 119, right: 141
+Token: * +
+Stack Top: 1
+0 7 19 10 19 10 19 10 19 8 14 1 
+id '*' F '+' T '+' T '+' T '+' T 
+type: 18, action: r, goto: 5
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+          ^                   ^                        
+left: 119, right: 141
+Token: * +
+Stack Top: 8
+0 7 19 10 19 10 19 10 19 8 14 8 
+F '*' F '+' T '+' T '+' T '+' T 
+type: 18, action: s, goto: 14
+type: 17, action: R, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+         ^                    ^                        
+left: 118, right: 141
+Token: id +
+Stack Top: 14
+0 7 19 10 19 10 19 10 19 8 14 8 14 
+'*' F '*' F '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+        ^                     ^                        
+left: 117, right: 141
+Token: * +
+Stack Top: 1
+0 7 19 10 19 10 19 10 19 8 14 8 14 1 
+id '*' F '*' F '+' T '+' T '+' T '+' T 
+type: 18, action: r, goto: 5
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+        ^                     ^                        
+left: 117, right: 141
+Token: * +
+Stack Top: 8
+0 7 19 10 19 10 19 10 19 8 14 8 14 8 
+F '*' F '*' F '+' T '+' T '+' T '+' T 
+type: 18, action: s, goto: 14
+type: 17, action: R, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+       ^                      ^                        
+left: 116, right: 141
+Token: id +
+Stack Top: 14
+0 7 19 10 19 10 19 10 19 8 14 8 14 8 14 
+'*' F '*' F '*' F '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+      ^                       ^                        
+left: 115, right: 141
+Token: + +
+Stack Top: 1
+0 7 19 10 19 10 19 10 19 8 14 8 14 8 14 1 
+id '*' F '*' F '*' F '+' T '+' T '+' T '+' T 
+type: 17, action: r, goto: 5
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+      ^                       ^                        
+left: 115, right: 141
+Token: + +
+Stack Top: 8
+0 7 19 10 19 10 19 10 19 8 14 8 14 8 14 8 
+F '*' F '*' F '*' F '+' T '+' T '+' T '+' T 
+type: 17, action: r, goto: 3
+type: 17, action: R, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+      ^                       ^                        
+left: 115, right: 141
+Token: + +
+Stack Top: 22
+0 7 19 10 19 10 19 10 19 8 14 8 14 8 14 22 
+T '*' F '*' F '*' F '+' T '+' T '+' T '+' T 
+type: 17, action: r, goto: 2
+type: 17, action: r, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+      ^                       ^                        
+left: 115, right: 141
+Token: + +
+Stack Top: 22
+0 7 19 10 19 10 19 10 19 8 14 8 14 22 
+T '*' F '*' F '+' T '+' T '+' T '+' T 
+type: 17, action: r, goto: 2
+type: 17, action: r, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+      ^                       ^                        
+left: 115, right: 141
+Token: + +
+Stack Top: 22
+0 7 19 10 19 10 19 10 19 8 14 22 
+T '*' F '+' T '+' T '+' T '+' T 
+type: 17, action: r, goto: 2
+type: 17, action: r, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+      ^                       ^                        
+left: 115, right: 141
+Token: + +
+Stack Top: 10
+0 7 19 10 19 10 19 10 19 10 
+T '+' T '+' T '+' T '+' T 
+type: 17, action: s, goto: 19
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+     ^                        ^                        
+left: 114, right: 141
+Token: id +
+Stack Top: 19
+0 7 19 10 19 10 19 10 19 10 19 
+'+' T '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+    ^                         ^                        
+left: 113, right: 141
+Token: + +
+Stack Top: 1
+0 7 19 10 19 10 19 10 19 10 19 1 
+id '+' T '+' T '+' T '+' T '+' T 
+type: 17, action: r, goto: 5
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+    ^                         ^                        
+left: 113, right: 141
+Token: + +
+Stack Top: 8
+0 7 19 10 19 10 19 10 19 10 19 8 
+F '+' T '+' T '+' T '+' T '+' T 
+type: 17, action: r, goto: 3
+type: 17, action: R, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+    ^                         ^                        
+left: 113, right: 141
+Token: + +
+Stack Top: 10
+0 7 19 10 19 10 19 10 19 10 19 10 
+T '+' T '+' T '+' T '+' T '+' T 
+type: 17, action: s, goto: 19
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+   ^                          ^                        
+left: 112, right: 141
+Token: id +
+Stack Top: 19
+0 7 19 10 19 10 19 10 19 10 19 10 19 
+'+' T '+' T '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+  ^                           ^                        
+left: 111, right: 141
+Token: * +
+Stack Top: 1
+0 7 19 10 19 10 19 10 19 10 19 10 19 1 
+id '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 18, action: r, goto: 5
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+  ^                           ^                        
+left: 111, right: 141
+Token: * +
+Stack Top: 8
+0 7 19 10 19 10 19 10 19 10 19 10 19 8 
+F '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 18, action: s, goto: 14
+type: 17, action: R, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+ ^                            ^                        
+left: 110, right: 141
+Token: id +
+Stack Top: 14
+0 7 19 10 19 10 19 10 19 10 19 10 19 8 14 
+'*' F '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                             ^                        
+left: 109, right: 141
+Token: + +
+Stack Top: 1
+0 7 19 10 19 10 19 10 19 10 19 10 19 8 14 1 
+id '*' F '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 17, action: r, goto: 5
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                             ^                        
+left: 109, right: 141
+Token: + +
+Stack Top: 8
+0 7 19 10 19 10 19 10 19 10 19 10 19 8 14 8 
+F '*' F '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 17, action: r, goto: 3
+type: 17, action: R, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                             ^                        
+left: 109, right: 141
+Token: + +
+Stack Top: 22
+0 7 19 10 19 10 19 10 19 10 19 10 19 8 14 22 
+T '*' F '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 17, action: r, goto: 2
+type: 17, action: r, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                             ^                        
+left: 109, right: 141
+Token: + +
+Stack Top: 10
+0 7 19 10 19 10 19 10 19 10 19 10 19 10 
+T '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 17, action: s, goto: 19
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                             ^                        
+left: 109, right: 141
+Token: id +
+Stack Top: 0
+0 
+T '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action: s, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                              ^                       
+left: 109, right: 142
+Token: id id
+Stack Top: 2
+0 2 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' 
+type: 5, action: s, goto: 1
+type: 5, action: s, goto: 1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                               ^                      
+left: 109, right: 143
+Token: id *
+Stack Top: 1
+0 2 1 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' id 
+type: 5, action:  , goto: -1
+type: 18, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                               ^                      
+left: 109, right: 143
+Token: id *
+Stack Top: 12
+0 2 12 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' F 
+type: 5, action:  , goto: -1
+type: 18, action: r, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                               ^                      
+left: 109, right: 143
+Token: id *
+Stack Top: 11
+0 2 11 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 18, action: s, goto: 13
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                ^                     
+left: 109, right: 144
+Token: id id
+Stack Top: 13
+0 2 11 13 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' 
+type: 5, action:  , goto: -1
+type: 5, action: s, goto: 1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                 ^                    
+left: 109, right: 145
+Token: id +
+Stack Top: 1
+0 2 11 13 1 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' id 
+type: 5, action:  , goto: -1
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                 ^                    
+left: 109, right: 145
+Token: id +
+Stack Top: 22
+0 2 11 13 22 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' F 
+type: 5, action:  , goto: -1
+type: 17, action: r, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                 ^                    
+left: 109, right: 145
+Token: id +
+Stack Top: 11
+0 2 11 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                 ^                    
+left: 109, right: 145
+Token: id +
+Stack Top: 0
+0 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action: s, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                  ^                   
+left: 109, right: 146
+Token: id id
+Stack Top: 2
+0 2 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' 
+type: 5, action: s, goto: 1
+type: 5, action: s, goto: 1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                   ^                  
+left: 109, right: 147
+Token: id *
+Stack Top: 1
+0 2 1 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' id 
+type: 5, action:  , goto: -1
+type: 18, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                   ^                  
+left: 109, right: 147
+Token: id *
+Stack Top: 12
+0 2 12 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' F 
+type: 5, action:  , goto: -1
+type: 18, action: r, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                   ^                  
+left: 109, right: 147
+Token: id *
+Stack Top: 11
+0 2 11 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 18, action: s, goto: 13
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                    ^                 
+left: 109, right: 148
+Token: id id
+Stack Top: 13
+0 2 11 13 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' 
+type: 5, action:  , goto: -1
+type: 5, action: s, goto: 1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                     ^                
+left: 109, right: 149
+Token: id *
+Stack Top: 1
+0 2 11 13 1 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' id 
+type: 5, action:  , goto: -1
+type: 18, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                     ^                
+left: 109, right: 149
+Token: id *
+Stack Top: 22
+0 2 11 13 22 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' F 
+type: 5, action:  , goto: -1
+type: 18, action: r, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                     ^                
+left: 109, right: 149
+Token: id *
+Stack Top: 11
+0 2 11 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 18, action: s, goto: 13
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                      ^               
+left: 109, right: 150
+Token: id id
+Stack Top: 13
+0 2 11 13 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' 
+type: 5, action:  , goto: -1
+type: 5, action: s, goto: 1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                       ^              
+left: 109, right: 151
+Token: id *
+Stack Top: 1
+0 2 11 13 1 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' id 
+type: 5, action:  , goto: -1
+type: 18, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                       ^              
+left: 109, right: 151
+Token: id *
+Stack Top: 22
+0 2 11 13 22 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' F 
+type: 5, action:  , goto: -1
+type: 18, action: r, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                       ^              
+left: 109, right: 151
+Token: id *
+Stack Top: 11
+0 2 11 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 18, action: s, goto: 13
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                        ^             
+left: 109, right: 152
+Token: id id
+Stack Top: 13
+0 2 11 13 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' 
+type: 5, action:  , goto: -1
+type: 5, action: s, goto: 1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                         ^            
+left: 109, right: 153
+Token: id *
+Stack Top: 1
+0 2 11 13 1 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' id 
+type: 5, action:  , goto: -1
+type: 18, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                         ^            
+left: 109, right: 153
+Token: id *
+Stack Top: 22
+0 2 11 13 22 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' F 
+type: 5, action:  , goto: -1
+type: 18, action: r, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                         ^            
+left: 109, right: 153
+Token: id *
+Stack Top: 11
+0 2 11 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 18, action: s, goto: 13
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                          ^           
+left: 109, right: 154
+Token: id id
+Stack Top: 13
+0 2 11 13 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' 
+type: 5, action:  , goto: -1
+type: 5, action: s, goto: 1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                           ^          
+left: 109, right: 155
+Token: id *
+Stack Top: 1
+0 2 11 13 1 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' id 
+type: 5, action:  , goto: -1
+type: 18, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                           ^          
+left: 109, right: 155
+Token: id *
+Stack Top: 22
+0 2 11 13 22 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' F 
+type: 5, action:  , goto: -1
+type: 18, action: r, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                           ^          
+left: 109, right: 155
+Token: id *
+Stack Top: 11
+0 2 11 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 18, action: s, goto: 13
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                            ^         
+left: 109, right: 156
+Token: id id
+Stack Top: 13
+0 2 11 13 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' 
+type: 5, action:  , goto: -1
+type: 5, action: s, goto: 1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                             ^        
+left: 109, right: 157
+Token: id +
+Stack Top: 1
+0 2 11 13 1 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' id 
+type: 5, action:  , goto: -1
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                             ^        
+left: 109, right: 157
+Token: id +
+Stack Top: 22
+0 2 11 13 22 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '*' F 
+type: 5, action:  , goto: -1
+type: 17, action: r, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                             ^        
+left: 109, right: 157
+Token: id +
+Stack Top: 11
+0 2 11 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action:  , goto: -1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                             ^        
+left: 109, right: 157
+Token: id +
+Stack Top: 0
+0 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T 
+type: 5, action: s, goto: 1
+type: 17, action: s, goto: 2
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                              ^       
+left: 109, right: 158
+Token: id (
+Stack Top: 2
+0 2 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' 
+type: 5, action: s, goto: 1
+type: 19, action: s, goto: 4
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                               ^      
+left: 109, right: 159
+Token: id id
+Stack Top: 4
+0 2 4 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' 
+type: 5, action:  , goto: -1
+type: 5, action: s, goto: 1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                ^     
+left: 109, right: 160
+Token: id +
+Stack Top: 1
+0 2 4 1 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' id 
+type: 5, action:  , goto: -1
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                ^     
+left: 109, right: 160
+Token: id +
+Stack Top: 12
+0 2 4 12 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' F 
+type: 5, action:  , goto: -1
+type: 17, action: r, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                ^     
+left: 109, right: 160
+Token: id +
+Stack Top: 16
+0 2 4 16 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' T 
+type: 5, action:  , goto: -1
+type: 17, action: r, goto: 1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                ^     
+left: 109, right: 160
+Token: id +
+Stack Top: 15
+0 2 4 15 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' E 
+type: 5, action:  , goto: -1
+type: 17, action: s, goto: 9
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                 ^    
+left: 109, right: 161
+Token: id id
+Stack Top: 9
+0 2 4 15 9 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' E '+' 
+type: 5, action:  , goto: -1
+type: 5, action: s, goto: 1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                  ^   
+left: 109, right: 162
+Token: id +
+Stack Top: 1
+0 2 4 15 9 1 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' E '+' id 
+type: 5, action:  , goto: -1
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                  ^   
+left: 109, right: 162
+Token: id +
+Stack Top: 12
+0 2 4 15 9 12 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' E '+' F 
+type: 5, action:  , goto: -1
+type: 17, action: r, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                  ^   
+left: 109, right: 162
+Token: id +
+Stack Top: 20
+0 2 4 15 9 20 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' E '+' T 
+type: 5, action:  , goto: -1
+type: 17, action: r, goto: 0
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                  ^   
+left: 109, right: 162
+Token: id +
+Stack Top: 15
+0 2 4 15 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' E 
+type: 5, action:  , goto: -1
+type: 17, action: s, goto: 9
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                   ^  
+left: 109, right: 163
+Token: id id
+Stack Top: 9
+0 2 4 15 9 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' E '+' 
+type: 5, action:  , goto: -1
+type: 5, action: s, goto: 1
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                    ^ 
+left: 109, right: 164
+Token: id +
+Stack Top: 1
+0 2 4 15 9 1 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' E '+' id 
+type: 5, action:  , goto: -1
+type: 17, action: r, goto: 5
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                    ^ 
+left: 109, right: 164
+Token: id +
+Stack Top: 12
+0 2 4 15 9 12 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' E '+' F 
+type: 5, action:  , goto: -1
+type: 17, action: r, goto: 3
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                    ^ 
+left: 109, right: 164
+Token: id +
+Stack Top: 20
+0 2 4 15 9 20 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' E '+' T 
+type: 5, action:  , goto: -1
+type: 17, action: r, goto: 0
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                    ^ 
+left: 109, right: 164
+Token: id +
+Stack Top: 15
+0 2 4 15 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' E 
+type: 5, action:  , goto: -1
+type: 17, action: s, goto: 9
+------------------------
++i*i+i+i*i*i*i+i+i*i+i*i+i*i*i+i*i+i*i*i*i*i*i+(i+i+i+i
+^                                                     ^
+left: 109, right: 165
+Token: id id
+Stack Top: 9
+0 2 4 15 9 
+T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' T '+' '(' E '+' 
+type: 5, action:  , goto: -1
+type: 5, action: s, goto: 1
